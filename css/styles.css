@@ -642,6 +642,17 @@ progress {
   margin-left: auto;
 }
 
+.container-co {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  border-radius: 20px;
+  padding: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f77a58;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -1285,7 +1296,7 @@ progress {
   }
   .col-lg-5 {
     flex: 0 0 auto;
-    width: 41.66666667%;
+    width: 45.66666667%;
   }
   .col-lg-6 {
     flex: 0 0 auto;
@@ -10845,6 +10856,15 @@ body {
 
 .btn-xl {
   padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+.btn-xs {
+  padding: 1rem 8rem;
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
