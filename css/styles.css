@@ -434,7 +434,8 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
+/*
+rtl:raw:
 [type="tel"],
 [type="url"],
 [type="email"],
@@ -442,6 +443,7 @@ legend + * {
   direction: ltr;
 }
 */
+
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -631,6 +633,10 @@ progress {
   margin-left: auto;
 }
 
+.container-lo {
+  padding-right: 30px;
+}
+
 .container-co {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -654,12 +660,12 @@ progress {
 }
 
 .container-ap {
-  width: 71%;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  background: gray;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  background: #2c80ff;
   border-radius: 20px;
 }
 
