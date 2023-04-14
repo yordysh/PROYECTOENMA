@@ -729,7 +729,7 @@ progress {
     width: 70%;
     background-color: #D9D9D9;
     border-radius: 34px;
-    margin: 70px 0 0 50px;
+    margin: 90px 0 0 50px;
     height: 300px;
   }
   .right .contact {
@@ -752,6 +752,12 @@ progress {
   .img-fluid{
     margin-top: -280px;
   }
+  .content .number-content{
+    margin-left: 130px;
+  }
+  .content .email-content{
+    margin-right: 100px;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
@@ -761,12 +767,15 @@ progress {
     padding-right: 20px;
   }
   /*Contacto*/
+  .row p{
+    max-width: 60%;
+  }
   .right {
     padding:50px 50px -50px 50px;
     width: 60%;
     background-color: #D9D9D9;
     border-radius: 34px;
-    margin-top: 80px;
+    margin-top: 95px;
   }
   .right .contact {
     font-size: 13px;
@@ -792,6 +801,13 @@ progress {
   }
   svg{
     padding-right: 20px;
+  }
+  .right {
+    padding:50px 50px -50px 50px;
+    width: 60%;
+    background-color: #D9D9D9;
+    border-radius: 34px;
+    margin-top: 95px;
   }
 }
 @media (min-width: 1400px) {
@@ -1444,7 +1460,8 @@ progress {
     width: 60%;
     background-color: #D9D9D9;
     border-radius: 34px;
-    margin-top: 80px;
+    margin-top: 95px;
+    height: 570px;
   }
   .right .contact {
     font-size: 13px;
@@ -1580,7 +1597,7 @@ progress {
     width: 60%;
     background-color: #D9D9D9;
     border-radius: 34px;
-    margin-top: 80px;
+    margin-top: 95px;
   }
   .right .contact {
     font-size: 13px;
