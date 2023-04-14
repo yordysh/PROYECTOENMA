@@ -794,6 +794,9 @@ progress {
     color: rgba(0, 0, 0, 0.71);
     margin-left: 15px;
   }
+  .content .email-content{
+    margin-right: -30px;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
