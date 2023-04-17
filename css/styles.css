@@ -633,18 +633,14 @@ progress {
   margin-left: auto;
 }
 
-<<<<<<< HEAD
 .container-lo {
   padding-right: 30px;
 }
 
-=======
->>>>>>> main
 .container-co {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-<<<<<<< HEAD
   padding-top: 30px;
   padding-left: 40px;
   padding-bottom: 10px;
@@ -671,13 +667,6 @@ progress {
   padding-right: 40px;
   background: #2c80ff;
   border-radius: 20px;
-=======
-  border-radius: 20px;
-  padding: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #f77a58;
->>>>>>> main
 }
 
 @media (min-width: 576px) {
@@ -3025,6 +3014,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #000;
   --bs-btn-disabled-bg: #f8f9fa;
   --bs-btn-disabled-border-color: #f8f9fa;
+  width: 100%;
 }
 
 .btn-dark {
