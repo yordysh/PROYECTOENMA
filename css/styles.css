@@ -10911,17 +10911,13 @@ body {
 }
 
 .btn-xs {
-<<<<<<< HEAD
   padding: 1rem 2.25rem;
-=======
   padding: 1rem 8rem;
->>>>>>> main
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
-<<<<<<< HEAD
   width: 100%;
 }
 
@@ -10932,8 +10928,6 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 5rem;
-=======
->>>>>>> main
 }
 
 hr.divider {
