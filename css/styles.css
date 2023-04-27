@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Creative v7.0.7 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -651,11 +640,17 @@ progress {
   background: #2c80ff;
   border-radius: 20px;
 }
+h2.contact {
+  font-size: 18px;
+}
 
-@media (min-width: 576px) {
+@media (min-width: 400px) {
   .container-sm, .container {
     max-width: 540px;
   }
+  .container-contact {
+    margin-top: 55px;
+}
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -666,6 +661,9 @@ progress {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+  .container-contact {
+    margin-top: -55px;
+}
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -10866,7 +10864,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #fff;
   opacity: 1;
 }
 
