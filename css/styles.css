@@ -5382,6 +5382,10 @@ dialog {
   background-color: #212529;
 }
 
+dialog div {
+  align-items: center;
+}
+
 dialog::backdrop {
   background: #343a40;
   opacity: 0.5;
