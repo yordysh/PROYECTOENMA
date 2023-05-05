@@ -588,7 +588,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 150%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -669,6 +669,7 @@ progress {
   background: #2c80ff;
   border-radius: 20px;
 }
+
 .container-contact{
   width: 100%;
   padding-top: 30px;
@@ -678,6 +679,7 @@ progress {
   background: #D9D9D9;
   border-radius: 20px;
 }
+
 .title{
   margin-bottom: 50px;
   text-align: left;
@@ -744,7 +746,7 @@ h3.phone{
    margin-left: 90px; 
 }
 .img-fluid {
-  max-width: 150%;
+  max-width: 100%;
   height: auto;
 }
 }
@@ -753,10 +755,10 @@ h3.phone{
     max-width: 960px;
   }
   .number-content.col-md-6 {
-    margin-left: 10px;
+    margin-left: -23px;
   }
   .email-content.col-md-6 {
-    margin-left: 180px; 
+    margin-left: 60px; 
  }
 }
 @media (min-width: 1200px) {
@@ -5370,10 +5372,15 @@ textarea.form-control-lg {
   word-wrap: break-word;
 }
 
+dialog::backdrop {
+  background: #343a40;
+  opacity: 0.5;
+}
+
 .modal {
   --bs-modal-zindex: 1055;
   --bs-modal-width: 500px;
-  --bs-modal-padding: 1rem;
+  --bs-modal-padding: 20px;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
   --bs-modal-bg: #fff;
